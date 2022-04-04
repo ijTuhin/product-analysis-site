@@ -1,0 +1,50 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Jayne French",
+        "ratings": 4,
+        "reviews": "Liked it though, give it a try!!!"
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "name": "Carrie Garrison",
+        "ratings": 5,
+        "reviews": "Just Awesome!!! Highly recommended."
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "name": "Ryan Mendoza",
+        "ratings": 4,
+        "reviews": "They got a professional taste"
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "name": "Soto Walker",
+        "ratings": 5,
+        "reviews": "Got myself as their permanent customer"
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "name": "Abigail Holman",
+        "ratings": 4,
+        "reviews": "Impressive work, good wishes"
+    },
+    {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "name": "Spencer Talley",
+        "ratings": 3,
+        "reviews": "Good!"
+    },
+    {
+        "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+        "name": "Rodgers Clements",
+        "ratings": 4,
+        "reviews": "Loved their management"
+    },
+    {
+        "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+        "name": "Aurelia Chambers",
+        "ratings": 4,
+        "reviews": "Really saved my time, thanks a million"
+    }
+]
