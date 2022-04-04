@@ -3,7 +3,9 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import img from './../../img.jpg';
 import './Home.css';
+import useReview from '../../hooks/useReview';
 const Home = () => {
+    const [reviews, setReviews] = useReview();
     return (
         <div className='home-page'>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
