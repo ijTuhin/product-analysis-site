@@ -7,7 +7,7 @@ const EachReview = ({ review }) => {
         <div className='review-card'>
             <p>Name: {name}</p>
             <p>Review: {reviews}</p>
-            <p>Ratings: {ratings}</p>
+            <p>Ratings: {ratings} stars</p>
         </div>
     );
 };

@@ -4,8 +4,10 @@ import React from 'react';
 import img from './../../img.jpg';
 import './Home.css';
 import useReview from '../../hooks/useReview';
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
     const [reviews, setReviews] = useReview();
+    const navigate = useNavigate();
     return (
         <div className='home-page'>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -16,7 +18,7 @@ const Home = () => {
                 <img src={img} alt="img" />
             </div>
             <div className='review-btn-container'>
-                <button className='review-btn'><span>See all reviews</span><FontAwesomeIcon icon={faArrowRightLong}></FontAwesomeIcon></button>
+                <button onClick={() => navigate('/review')} className='review-btn'><span>See all reviews</span><FontAwesomeIcon icon={faArrowRightLong}></FontAwesomeIcon></button>
             </div>
         </div>
     );
