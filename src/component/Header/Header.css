@@ -1,18 +1,18 @@
 .navbar-container {
     display: flex;
     justify-content: center;
-    margin: 20px 10px;
+    margin: 30px 10px;
 }
 
 .navbar-container .navbar {
     text-decoration: none;
     padding: 7px;
-    margin: 7px;
-    border-radius: 7px;
+    margin: 10px;
+    border-radius: 2.5px;
 }
 
 .navbar-container .navbar:hover {
-    background-color: rgba(86, 127, 160, 0.2);
+    background-color: rgba(64, 26, 56, 0.2);
     padding: 7px 10px;
     margin: 7px 10px;
 }

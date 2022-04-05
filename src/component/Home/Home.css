@@ -1,21 +1,43 @@
 .home-page {
-    margin: 50px 150px;
+    margin: 50px 100px;
 }
 
 .home-page img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
 .heading-text {
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
 .review-btn-container {
     display: flex;
     justify-content: center;
-    margin: 50px 20px;
+    margin: 30px 20px;
+}
+
+.less-review-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 5px 200px;
+}
+
+.less-review-container p {
+    margin: 0 auto;
+}
+
+.less-review-card {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(49, 74, 84, 0.3);
+}
+
+.less-review-card:hover {
+    background-color: rgba(49, 74, 84, 0.6);
 }
 
 .review-btn {
