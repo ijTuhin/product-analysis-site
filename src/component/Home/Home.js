@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
-import img from './../../img.jpg';
+import img from './../../images/img.jpg';
 import './Home.css';
 import useReview from '../../hooks/useReview';
 import { useNavigate } from 'react-router-dom';
