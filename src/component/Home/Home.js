@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
-import React, { useEffect, useState } from 'react';
 import img from './../../img.jpg';
 import './Home.css';
 import useReview from '../../hooks/useReview';

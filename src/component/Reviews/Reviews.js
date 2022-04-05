@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import useReview from '../../hooks/useReview';
 import EachReview from './EachReview';
 import './Review.css';
