@@ -13,7 +13,9 @@ const Home = () => {
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "70px" }}>
                 <div className='heading-text'>
                     <h1>The <span style={{ color: "goldenrod" }}>Hook-Up</span> Company</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nisi ipsum, maxime delectus porro quas aut assumenda blanditiis aperiam ad provident mollitia repellat quis harum nobis earum commodi dolorem ratione quos optio voluptatem. Architecto cumque, amet suscipit ab doloribus quae impedit aperiam nisi eum rem sapiente aspernatur! Quasi quis, earum dolorem quos, quibusdam minus consectetur autem, neque voluptatum et nam.</p>
+                    <p>It's not by chance, that for the past 3 years we have consistently been awarded for delivering customer service excellence by Feefo. Our commitment to customer service has been reflected in the quality and efficiency of our work. Recently awarded the 2022 Feefo Platinum Trusted Service Award, our 2700+ live customer reviews set us apart as the leading provider of business IT support.
+                        Our market leading Managed IT Support services are accredited by some of the world’s leading IT vendors, such as Microsoft, Cisco, Cisco Meraki and Sophos. We have a specialist internal IT Consultancy and Cyber security consultancy team to enable us deliver a full service managed service offering to improve your business performance. Our flexible range of contracts, give you peace of mind that your IT support business needs are managed efficiently.  Whether operating from the office, remotely, or functioning as a hybrid, we ensure the seamless functioning of your entire workforce
+                    </p>
                 </div>
                 <img src={img} alt="img" />
             </div>
