@@ -5,14 +5,15 @@
 }
 
 .navbar-container .navbar {
-    text-decoration: none;
     padding: 7px;
     margin: 10px;
     border-radius: 2.5px;
+    color: darkgray;
 }
 
 .navbar-container .navbar:hover {
-    background-color: rgba(64, 26, 56, 0.2);
-    padding: 7px 10px;
-    margin: 7px 10px;
+    /* background-color: rgba(64, 26, 56, 0.2); rgb(39, 39, 39) */
+    /* padding: 7px 10px; */
+    font-weight: 600;
+    color: goldenrod;
 }
