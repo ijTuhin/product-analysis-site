@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img from './../../img.jpg';
 import './Home.css';
 import useReview from '../../hooks/useReview';
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             <div className='review-container'>
                 {
-                    reviews.map(review => <LessReview
+                    reviews.slice(0, 3).map(review => <LessReview
                         key={review.id}
                         review={review}
                     ></LessReview>)
