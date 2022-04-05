@@ -12,6 +12,10 @@
     margin-right: 80px;
 }
 
+.heading-text p {
+    font-family: 'Poppins', sans-serif;
+}
+
 .review-btn-container {
     display: flex;
     justify-content: center;
@@ -29,15 +33,22 @@
 }
 
 .less-review-card {
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
+    border-left-style: double;
+    border-left-width: 5px;
+    border-left-color: goldenrod;
+    /* border: 3px solid darkmagenta; */
+    border-radius: 15px 0px;
+    padding: 10px 10px;
     margin: 10px;
-    background-color: rgba(49, 74, 84, 0.3);
+}
+
+.less-review-card p span {
+    font-weight: 600;
+    color: darkmagenta;
 }
 
 .less-review-card:hover {
-    background-color: rgba(49, 74, 84, 0.6);
+    background-color: rgba(229, 195, 143, 0.4);
 }
 
 .review-btn {

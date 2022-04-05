@@ -4,8 +4,8 @@ const EachReview = ({ review }) => {
     const { name, reviews, ratings } = review;
     return (
         <div className='review-card'>
-            <p>Name: {name}</p>
-            <p>Review: {reviews}</p>
+            <p>Name: <span id='review-user-name'>{name}</span></p>
+            <p>Review: <span id='review-txt'>{reviews}</span></p>
             <p>Ratings: {ratings} stars</p>
         </div>
     );

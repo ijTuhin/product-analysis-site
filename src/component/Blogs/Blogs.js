@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRightLong, faBarChart } from '@fortawesome/free-solid-svg-icons'
+import { faBarChart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Blogs.css';
 const Blogs = () => {
